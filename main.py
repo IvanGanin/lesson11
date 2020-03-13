@@ -44,6 +44,6 @@ if __name__ == "__main__":
     carrot = Food(8, 2, 28)
     milk = Food(47, 23, 2)
     print(carrot < milk)
-    print("the length of the object:", len(carrot))
-    carrot[8] = 55
-    print("the length of the object:", len(carrot))
+    print("Длинна объекта:", len(carrot))
+    milk[8] = 3
+    print("Длинна объекта;", len(milk))
